@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <div className='navbar'>
         <div className="left">
-          <h2 className='title'>Portfolio</h2>
+          <h2 className='title'>SV</h2>
         </div>
         <div className="right">
           <ScrollLink

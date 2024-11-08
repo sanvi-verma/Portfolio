@@ -38,7 +38,7 @@ async function sendMail(formData) {
 
     const mailOptions = {
       from: formData.email,
-      to: '22cs01031@iitbbs.ac.in', // Replace with your email address
+      to: 'sanviverma3022@gmail.com', // Replace with your email address
       subject: 'Contact Form Submission',
       text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
     };

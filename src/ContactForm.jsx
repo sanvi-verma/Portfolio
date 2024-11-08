@@ -46,15 +46,15 @@ const ContactForm = () => {
               <FontAwesomeIcon icon={faPhone} />
               <span className="contact-text phone">
                 <a href="tel:7396425771" title="Give me a call">
-                  +91-7396425771
+                  +91-7021664886
                 </a>
               </span>
             </li>
             <li className="list-item">
               <FontAwesomeIcon icon={faEnvelope} />
               <span className="contact-text gmail">
-                <a href="mailto:vamsipraneeth2004@gmail.com" title="Send me an email">
-                  vamsipraneeth2004@gmail.com
+                <a href="mailto:sanviverma3022@gmail.com" title="Send me an email">
+                  sanviverma3022@gmail.com
                 </a>
               </span>
             </li>
@@ -62,17 +62,17 @@ const ContactForm = () => {
           <hr />
           <ul className="social-media-list">
     <li>
-      <a href="https://www.instagram.com/mangipudivamsi" target="_blank" className="contact-icon" rel="noreferrer">
+      <a href="https://www.instagram.com/_sanviverma_/" target="_blank" className="contact-icon" rel="noreferrer">
         <FontAwesomeIcon icon={faFacebook} aria-hidden="true" />
       </a>
     </li>
     <li>
-      <a href="https://www.instagram.com/mangipudivamsi" target="_blank" className="contact-icon" rel="noreferrer">
+      <a href="https://www.instagram.com/_sanviverma_/" target="_blank" className="contact-icon" rel="noreferrer">
         <FontAwesomeIcon icon={faInstagram} aria-hidden="true" />
       </a>
     </li>
     <li>
-      <a href="https://www.instagram.com/mangipudivamsi" target="_blank" className="contact-icon" rel="noreferrer">
+      <a href="https://www.instagram.com/_sanviverma_/" target="_blank" className="contact-icon" rel="noreferrer">
         <FontAwesomeIcon icon={faTwitter} aria-hidden="true" />
       </a>
     </li>

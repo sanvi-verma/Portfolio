@@ -1,41 +1,41 @@
 import React from 'react'
 import Card from './Card';
-import restaurant from"./images/ivan-stern-LOLSb7m6XkU-unsplash.jpg"
-import chess from"./images/chess.jpg"
-import snake from "./images/snake.jpg"
-import wise_way from"./images/wise_way.jpg"
+import bank from"./images/bank.jpg"
+import Hospital from"./images/Hospital.jpg"
+import toDoList from "./images/to-doList.jpg"
+import globe from"./images/globe.jpg"
 import { motion } from 'framer-motion';
 
 const Projects = () => {
     const cards = [
         {
-          imageUrl: restaurant,
-          altText: 'Resataurant website',
-          title: 'Restaurant Website',
-          description: 'A dynamic and responsive restaurant website showcasing menu, online reservations, customer reviews, and contact information.',
-          explore:"https://github.com/Praneeth2025/zenith-bistro"
+          imageUrl: bank,
+          altText: 'Bank Management',
+          title: 'Bank Management',
+          description: 'Developed a C++ Bank Management System for handling accounts, transactions, and customer data.',
+          explore:"https://github.com/sanvi-verma/BankManagement"
         },
         {
-          imageUrl:chess,
-          altText: 'Chess',
-          title: 'Chess image recognizer',
-          description: '"An AI-powered chess system that recognizes physical pieces and plays autonomously using computer vision and advanced game algorithms."',
-          explore:"https://github.com/Praneeth2025/chess-image-recognizer"
+          imageUrl:Hospital,
+          altText: 'Hospital Management System',
+          title: 'Hospital Management System',
+          description: '"Engineered a C++-based Hospital Management System for efficient patient record management, appointment scheduling, and data export functionality."',
+          explore:"https://github.com/sanvi-verma/Hospital-Management-System"
 
         },
         {
-          imageUrl: snake,
-          altText: 'Canyons',
-          title: 'Gesture Snake Game',
-          description: "an innovative twist on the classic snake game, allowing players to control the snake's movements through hand gestures, providing an engaging and interactive gaming experience.",
-          explore:"https://github.com/Praneeth2025/Gesture-Snake"
+          imageUrl: globe,
+          altText: 'World Capital Quiz',
+          title: 'World Capital Quiz',
+          description: "Created an interactive world capital quiz game using JavaScript, EJS, Express.js, and PostgreSQL",
+          explore:"https://github.com/sanvi-verma/World_Capital_Quiz"
         },
         {
-            imageUrl: wise_way,
-            altText: 'wise_way',
-            title: 'WiseWay',
-            description: "a web application that uses advanced algorithms to calculate the most cost-effective route between two points.",
-            explore:"https://github.com/Praneeth2025/WiseWay-website"
+            imageUrl: toDoList,
+            altText: 'To-Do List',
+            title: 'To-Do List',
+            description: "Developed a dynamic to-do list application using React.js, enabling task management and real-time updates.",
+            explore:"https://github.com/sanvi-verma/To-DoList"
           }
       ];
 

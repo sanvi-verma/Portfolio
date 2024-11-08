@@ -47,8 +47,8 @@ const WhyHireMe = () => {
                     <div className="flex2">
                         <div className="box">
                             <img src={scholar} alt="" className='why_logo' />
-                            <h4 className='mid_text'>2019</h4>
-                            <p className='main_text_why'>NTSE Scholar</p>
+                            <h4 className='mid_text'>2022-26</h4>
+                            <p className='main_text_why'>SIT, Pune</p>
                         </div>
                         <div className="box">
                             <img src={project} alt="" className='why_logo' />
